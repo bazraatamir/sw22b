@@ -9,3 +9,17 @@
     align-items: center;
     
 }
+@mixin container2 {
+    width: 80%;
+        height: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+}
+@mixin child2 {
+    width: 33%;
+            height: 80%;
+            border-radius: 10px;
+            border: 1px solid black;
+    
+}

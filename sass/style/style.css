@@ -31,7 +31,7 @@ nav h1 {
 
 .big {
   width: 100%;
-  height: 80vh;
+  height: 88vh;
   display: flex;
 }
 .big .child {
@@ -53,4 +53,52 @@ nav h1 {
   justify-content: center;
   align-items: center;
   background-color: #EAE2B7;
+}
+
+.big2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.big2 .container2 {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  display: none;
+}
+.big2 .container2 .child2 {
+  width: 33%;
+  height: 80%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.big2 .container3 {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  display: none;
+}
+.big2 .container3 .child2 {
+  width: 33%;
+  height: 80%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.big2 #tab1:checked ~ .container2 {
+  display: flex;
+}
+.big2 #tab2:checked ~ .container3 {
+  display: flex;
+}
+.big2 #tab1 {
+  display: none;
+}
+.big2 #tab2 {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
